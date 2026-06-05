@@ -1,0 +1,16 @@
+# Ignore CodeIgniter runtime cache and logs
+/application/cache/*
+/application/logs/*
+!application/cache/index.html
+!application/logs/index.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.log
